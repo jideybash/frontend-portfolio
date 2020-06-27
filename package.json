@@ -1,0 +1,11 @@
+{
+  "name": "my-frontend-portfolio",
+  "version": "1.0.0",
+  "description": "This will load my frontend project files",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
