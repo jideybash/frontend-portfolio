@@ -1,0 +1,11 @@
+{
+  "name": "Bookmarker",
+  "version": "1.0.0",
+  "description": "My Bookmark web app Project",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
