@@ -1,0 +1,11 @@
+{
+  "name": "book-list",
+  "version": "1.0.0",
+  "description": "My book-list web app",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
