@@ -1,0 +1,53 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+
+    <title>Quiz App</title>
+
+    <!--  GOOGLE FONT LINK  -->
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+  <!---   BOOTSTRAP LINK  -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+    <link href="css/quiz.css" rel="stylesheet">
+    
+  </head>
+  <body> 
+      <div class="jumbotron">
+        <h1 class="display-4 text-center col-md-12">Bible Trivia Questions</h1>
+      <div id="quizContainer" class="container-sm col-md-6"> 
+    <div class="title">
+  <h1 class="h3 mb-3 font-weight-bold bg-1">Review Quiz</h1>
+  </div>
+  <!--  QUESTIONS -->
+  <div id="question" class="question"></div>
+    <div class="row row-cols-2">
+      <label class="option col"><input type="radio" name="option" value="1" /> <span id="opt1"></span></label>
+      <label class="option col"><input type="radio" name="option" value="2" /> <span id="opt2"></span></label>
+      <label class="option col"><input type="radio" name="option" value="3" /> <span id="opt3"></span></label>
+      <label class="option col"><input type="radio" name="option" value="4" /> <span id="opt4"></span></label>
+    </div>
+  <!--<label class="option"><input type="radio" name="option" value="1" /> <span id="opt1"></span></label>
+  <label class="option"><input type="radio" name="option" value="2" /> <span id="opt2"></span></label>
+  <label class="option"><input type="radio" name="option" value="3" /> <span id="opt3"></span></label>
+  <label class="option"><input type="radio" name="option" value="4" /> <span id="opt4"></span></label> -->
+  <br>
+  <!--  NEXT BUTTON  -->
+  <button id="nextButton" class="btn btn-sm" onclick="loadNextQuestion();">Next Question</button>
+  <br>
+    </div>
+      </div>
+    <!--  DISPLAY RESULT  -->
+<div id="result" class="container result" style="display: none;"></div>
+      </div>
+<script src="js/question.js"></script>
+<script src="js/quiz-script.js"></script>
+</body>
+<!--<footer><p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p></footer> -->
+</html>

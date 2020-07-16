@@ -1,0 +1,120 @@
+body{
+    font-family: font-family: 'Poppins', sans-serif;
+    background: #e4e3e3;
+}
+.container-sm{
+    height: 450px;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: aquamarine;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 3px grey;
+    
+
+}
+
+.title{
+    padding: 20px;
+    text-align: center;
+    text-size: 36px;
+    text-transform: uppercase;
+    color:black;
+}
+.question {
+    padding: 13px;
+    font-size: 22px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    background-color: rgb(59, 199, 152);
+    color: white;
+}
+
+.option{
+    display: inline-block;
+    width: 470px;
+    padding: 10px 0 10px 15px;
+    vertical-align: middle;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-content: center;
+    position: relative;
+}
+.option:hover {
+    background: rgb(59, 199, 152);
+    color: white
+}
+.btn {
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    float: right;
+    background-color: rgb(59, 199, 152);
+    border: none;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.btn:hover {
+    background-color: rgb(10, 92, 65);
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#result {
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+}
+
+.option input:checked .option{
+    background: rgb(29, 134, 99);
+    color: black;
+}   
+/*---Media Queries 
+@media (max-width: 992px) {
+    .container-sm {
+        min-width: 320px;
+    }
+
+ 
+@media (max-width: 341px) {
+    .jumbotron {
+        width: 100%;
+    } 
+
+    .container-sm {
+        display: none;
+      }
+      @include media-breakpoint-up(sm) {
+        .container-sm {
+          display: block;
+        }
+/*---  Media queries 
+    .option {
+        float: right;
+        position: relative;
+    }
+
+}
+@media (max-width: 576px) {
+    .container, .question, .option {
+        min-width: 320px;
+    }
+
+}
+@media screen and (max-width: 480px) {
+
+    .container, .question, .option {
+        min-width: 320px;
+    }
+}--*/
