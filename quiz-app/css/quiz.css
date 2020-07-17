@@ -1,6 +1,6 @@
 body{
     font-family: font-family: 'Poppins', sans-serif;
-    background: #e4e3e3;
+    background: #E9ECEF;
 }
 .container-md{
     height: 450px;
@@ -65,7 +65,6 @@ body{
 }
 .jumbotron {
     padding: 2rem 1rem;
-    height: 100%;
     width: 100%;
     display: flex;
 }
@@ -74,6 +73,7 @@ body{
     height: 100px;
     text-align: center;
     font-size: 75px;
+
 }
 
 .option input:checked .option{
