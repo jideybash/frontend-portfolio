@@ -1,0 +1,11 @@
+{
+  "name": "email-validation",
+  "version": "1.0.0",
+  "description": "This is my email validation sample",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
