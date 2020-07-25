@@ -1,0 +1,14 @@
+.container {
+    margin-top: 2rem;
+}
+.btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+.avatar {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "github-finder",
+  "version": "1.0.0",
+  "description": "Search for different git hub usernames and repos",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
