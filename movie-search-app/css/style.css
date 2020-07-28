@@ -1,0 +1,14 @@
+.container {
+ 
+}
+.jumbotron {
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+.btn {
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+.form-control {
+    border-radius: 4px;
+}
