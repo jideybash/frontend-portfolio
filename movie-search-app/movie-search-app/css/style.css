@@ -1,0 +1,28 @@
+.jumbotron {
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+.btn {
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+.form-control {
+    border-radius: 4px;
+}
+#movies img, #movie img{
+    width:100%;
+  }
+.card {
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 0px, 0px;
+}
+.card-header {
+    width: 100%;
+}
+.list-group {
+    border-radius: 0.5rem;
+}
+.list{
+    color: orange;
+}

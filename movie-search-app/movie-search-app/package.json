@@ -1,0 +1,11 @@
+{
+  "name": "movie-search-app",
+  "version": "1.0.0",
+  "description": "Search for your favorite movies and there informationas.",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
