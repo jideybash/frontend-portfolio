@@ -1,0 +1,135 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Todo List</title>
+    <link rel="icon" href="#" title="Todo List">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Jquery Ui Links -->
+    <link rel="stylesheet" href="jquery-ui.css">
+        <script src="jquery.js"></script>
+        <script src="jquery-ui.js"></script>
+  
+<!-- Custom styles for this template -->
+<style>
+  #container
+            {
+                width: 700px;
+                height: 450px;
+                margin: 70px auto;
+                border: 2px solid indianred;
+                border-radius: 5px;
+            }
+            .text-center
+            {
+                margin-top: 20px;
+                color: indianred;
+                text-align: center;
+            }
+            #projects
+            {
+                width: 650px;
+                height:250px;
+                margin: 0px auto;
+            }
+            ol li
+            {
+                border: 1px dotted black;
+                cursor: pointer;
+                padding: 15px;
+                margin-bottom: 5px;
+                border-radius: 2px;
+            }
+            ol li:hover 
+            {
+                background: indianred;
+            }
+            #btnAddProject
+            {
+                margin-left: 562px;
+                margin-bottom: 20px;
+            }
+            #btnAddTask
+            {
+                margin-left: 576px;
+                margin-top: 20px;
+            }
+            .ui-icon-close
+            {
+                transform: scale(1.5);
+                cursor: pointer;
+            }
+</style>
+
+<!--   font awesome cdn  -->
+<script src="https://kit.fontawesome.com/09c7ea8de6.js" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/6e99fbc105.js"></script>
+<script src="main.js"></script>
+
+</head>
+
+  <body>
+    <div id="container">
+      <h1 class="display-5 text-center">Todo List</h1>
+      <button id="btnAddProject" class="btn btn-primary"><span class="fas fa-plus"></span>Add Project</button>
+      <div id="projects" class="ui-tabs ui-corner-all ui-widget ui-widget-content">
+          <ul id="main" role="tablist" class="ui-tabs-nav ui-corner-all ui-helper-reset">
+              <li role="tab"><a href="#personal">Personal</a><span class="ui-icon ui-icon-close"></span></li>
+              <li><a href="#work">Work</a><span class="ui-icon ui-icon-close"></span></li>
+          </ul>
+          <ol id="personal">
+              <li><input type="checkbox"> Laundry</li>
+              <li><input type="checkbox"> Studying</li>
+              <li><input type="checkbox"> Doctors Appointment</li>
+
+          </ol>
+          <ol id="work">
+              <li><input type="checkbox"> Finish project</li>
+              <li><input type="checkbox"> Update Portfolio</li>
+              <li><input type="checkbox"> Update Resume</li>
+
+          </ol>
+      </div>
+      <button id="btnAddTask" class="btn btn-primary"><span class="fas fa-plus"></span>Add Task</button>
+      <div id="project-dialog" title="Add a Project" style="display: none">
+          <label for="new-project">Project Name:</label><input id="new-project" type="text">
+      </div>
+      <div id="task-dialog" title="Add a Task" style="display: none">
+          <label for="new-task">Task Name:</label><input id="new-task" type="text">
+      </div>
+  </div>
+
+</body>
+ <!-- Footer -->
+ <footer>
+    <div class="container" style="padding: 80px 0 20px 0;" align="center">
+        <a href="https://facebook.com/berbahjidey">
+            <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/dat_nawty_boi">
+                <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+            </a>
+            <a href="mailto:jideybash@gmail.com">
+                    <i class="fa fa-envelope fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/babajide-bashiru-949a0310a/">
+                        <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                    </a>
+                    <a href="https://instagram.com/dat_nawty_boi">
+                            <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                        </a>
+                        <a href="https://github.com/jideybash">
+                                <i class="fa fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                            </a>
+    </div>
+    <div style="background: #1b262c;">
+        <p style="color: #91BEC2; padding: 15px 0;" align="center">
+            &copy; 2020 Copyright: <a href="https://github.com/jideybash">Created By: BABAJIDE BASHIRU</a>
+        </p>
+    </div>
+</footer>
+</body>
+</html>
